@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniil/calculator/header.h
+stack
+-
+iostream
+-
+string
+-
+functional
+-
+map
+-
+iomanip
+-
+cmath
+-
+algorithm
+-
+
+/home/daniil/calculator/main.cpp
+header.h
+/home/daniil/calculator/header.h
+
